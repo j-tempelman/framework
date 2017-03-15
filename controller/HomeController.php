@@ -1,6 +1,18 @@
 <?php
 
-function index()
+require(ROOT . "model/HomeModel.php");
+
+function index() 
 {
-	render("home/index");	
+	render('home/index');
+}
+
+function exampleOne()
+{
+
+}
+
+function exampleTwo()
+{
+	
 }

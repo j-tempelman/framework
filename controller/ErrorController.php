@@ -1,6 +1,11 @@
 <?php
 
-function index()
+function index() 
 {
-	echo "Uhmm, durp, een error! 404 ofzo?";
+	echo "Probleem! 404 ofzo.";
+}
+
+function error404() 
+{
+	echo "Probleem! 404 ofzo.";
 }
