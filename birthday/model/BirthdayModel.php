@@ -2,7 +2,7 @@
 function getDataList(){
 	$db = openDatabaseConnection();
 	
-	$query = $db->prepare("SELECT * FROM birthdays ORDER BY month");
+	$query = $db->prepare("SELECT * FROM birthdays ORDER BY month, day");
 	
 	$query->execute();
 	
