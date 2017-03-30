@@ -12,13 +12,13 @@
 <div class="content">
 <form action="/commpro/phone/save" method="post" autocomplete="off">
 
-<p> <input type="text" name="type" placeholder="Type" /> </p>
+	<p><input type="text" name="type" placeholder="type nummer" /></p>
 
-<p> <input type="text" name="serial" placeholder="Serienummer" /> </p>
+	<p><input type="text" name="serial" placeholder="serienummer" /></p>
 
-<p> <input type="text" name="imei" placeholder="IMEI nummer" /> </p>
+	<p><input type="text" name="imei" placeholder="IMEI nummer" /></p>
 
-<p> <input type="hidden" name="brandid" value="<?=$brandid; ?>"> </p>
+	<p><input type="hidden" name="brandid" value="<?=$brandid; ?>"></p>
 
 <button>opslaan</button>
 </form>

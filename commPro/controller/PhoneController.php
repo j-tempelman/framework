@@ -6,8 +6,7 @@
 	}
 
 	function save(){
-		if(isset($_POST['type'])){
-			
+		if(isset($_POST["type"]) && !empty($_POST["type"])){
 			$data=array();
 			$data['type']= $_POST['type'];
 			$data['serial']= $_POST['serial'];
@@ -15,8 +14,9 @@
 			$data['brandid']= $_POST['brandid'];
 	
 			createPhone($data);
-
 		}
+		else
+			echo "Invoeren loser";
 	
 	}
  ?>
